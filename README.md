@@ -1,5 +1,7 @@
 # GCP Billing and BigQuery Audit
 
+This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security).
+
 This repository contains a Looker block for analysing **Google Cloud Platform logs**. We provide a Looker model called **GCP Billing** which sits on top of GCP billing log exports. This model allows you to analyse billing data across projects and across services and resource types, allowing you to efficiently manage you GCP Billing account. We also provide projected monthly spend based on your current daily billing, so you can take actions to control spending across your organization.
 
 ## Getting Started
@@ -32,7 +34,6 @@ Note: Recently the GCP Billing Export moved from Beta to v1. If you activated th
 
 1. Go to **BigQuery** and copy the name of the billing export table, this will start **gcp_billing_export_**
 2. Create a new **Database Connection** in Looker to connect to the BigQuery dataset: follow the steps [here](https://docs.looker.com/setup-and-management/database-config/google-bigquery) to create a service account in GCP and add a new connection to Looker, ensure you use **BigQuery standard SQL**
-
 
 ### Schema Support (Legacy vs. New CUD Model)
 
