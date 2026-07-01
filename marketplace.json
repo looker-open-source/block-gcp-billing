@@ -2,7 +2,7 @@
   "label": "Google Cloud Platform Billing",
   "category_label": "Models",
   "branding": {
-    "image_uri": "https://marketplace-api.looker.com/block-icons/google-cloud.png",
+    "image_uri": "https://static-a.cdn.looker.app/marketplace/block-icons/google-cloud.png",
     "tagline": "Monitor and optimize your cloud spend with the GCP Billing Block"
   },
 
