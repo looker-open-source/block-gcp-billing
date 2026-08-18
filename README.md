@@ -1,6 +1,6 @@
 # GCP Billing and BigQuery Audit
 
-This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security).
+**This is not an officially supported Google product.**
 
 This repository contains a Looker block for analysing **Google Cloud Platform logs**. We provide a Looker model called **GCP Billing** which sits on top of GCP billing log exports. This model allows you to analyse billing data across projects and across services and resource types, allowing you to efficiently manage you GCP Billing account. We also provide projected monthly spend based on your current daily billing, so you can take actions to control spending across your organization.
 
